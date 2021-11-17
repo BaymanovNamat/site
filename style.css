@@ -11,7 +11,226 @@ body {
   justify-content: center;
   text-transform: uppercase;
 }
+.placeholder2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.placeholder3 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  
+  text-transform: capitalize;
+  background-color: white;
+  border-bottom: 1px solid rgb(235, 215, 215);
+  justify-content: center;
+  justify-content: space-between;
+}
+.placeholder3t {
+  justify-content: flex-end;
+}
+.placeholder4 {
+  background-color: white;
+}
+.placeholder5 {
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.margin2 {
+  margin: -35px 0 0 0;
+  border-radius: 5px;
+}
+.narrow {
+  max-height: 55px;
+}
+.placeholder6 {
+  font-weight: 100;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: grey;
+  padding: 0 0.5rem;
+  margin: -90px 0 0 0;
+}
+.placeholder7 {
+  color: white;
+  font-weight: bold;
+  
+  font-style: italic;
+  font-size: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.placeholder8 {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 45px;
+}
+.placeholder9 {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  padding-left: 45px;
+  margin-top: -25px;
+}
+.footer2 {
+  background-color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+  display: flex;
+  gap: 25px;
+}
+.span {
+  color: rgb(48, 67, 238);
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 5px;
+  margin-top: -1px;
+  line-height: 50px;
+}
+.span2 {
+  color: gray;
+  padding: 20px;
+  margin-top: -75px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  padding: 20px;
+  margin-top: -30px;
+  margin-bottom: -15px;
+}
+.a {
+  color: rgb(94, 94, 226);
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+.float {
+  border: 1px solid black;
+  float: right;
+  width: 40%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: rgb(33, 37, 41);
+  opacity: 0.8;
+}
+.max-width {
+  max-width: 60%;
+ 
+}
+.flex {
+  display: flex;
+  border: 1px solid gray;
+  max-width: 550px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px black;
+}
+.design {
+  color: green;
+}
+.title {
+  flex-wrap: wrap;
+}
+.back2 {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.inline {
+  flex-wrap: wrap;
+}
+.width {
+  padding-top: 25px;
+  gap: 15px;
+  width: 80%;
+  flex-grow: 1;
+}
+.black {
+  color: black;
+}
+.black:hover {
+  text-decoration: none;
+}
+.subscribe {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: gray;
+  justify-content: flex-start;
+}
+.gap {
+  cursor: pointer;
+}
 
+.back {
+  background-color: white;
+}
+.border {
+  border: none;
+
+}
+.size {
+  font-size: 20px;
+  color: gray;
+  font-weight: 100;
+}
+.padding {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: gray;
+  text-decoration: none;
+  margin: 15px;
+}
+.padding:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
 nav {
   background-color: tomato;
   min-height: 60px;
@@ -50,7 +269,7 @@ footer {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
